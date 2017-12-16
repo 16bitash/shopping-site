@@ -47,5 +47,6 @@ itemsWrapper.on('click', '.cart-button', e => {
     if (!isDuplicate) {
         itemsInCart.push(editItemDataId);
         localStorage.setItem('cartItems', JSON.stringify(itemsInCart));
+        alert('Item added!');
     }
 });

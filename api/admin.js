@@ -4,7 +4,7 @@ const route = express.Router();
 
 route.get('/all', (req, res) => {
     getAllItems(result => res.send(result));
-})
+});
 
 route.get('/', (req, res) => {
     getItemById(req.query.id, result => res.send(result.dataValues));

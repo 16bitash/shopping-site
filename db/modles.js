@@ -6,7 +6,7 @@ const db = new Sequelize(DB.DATABASE, DB.USER, DB.PASSWORD, {
     host: DB.HOST,
     dialect: DB.DIALECT,
     // logging: false
-})
+});
 
 const Items = db.define('items', {
     itemId: {
@@ -41,7 +41,7 @@ const Items = db.define('items', {
 
 Items.sync().then(() => {
     console.log("Database Connected!");
-})
+});
 
 exports.Items = Items;
 
