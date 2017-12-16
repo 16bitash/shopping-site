@@ -7,6 +7,6 @@
     "DATABASE": "dbone",
     "PASSWORD": "passone",
     "HOST": "localhost",
-    "DIALECT": "mysql"
+    "DIALECT": "postgres"
   }
 }
