@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const multer = require("multer");
 const upload = multer({dest: './api/img'});
 const path = require("path");
-const PORT = process.env.PORT || require("config.json").SERVER.PORT;
+const PORT = process.env.PORT || require("./config.json").SERVER.PORT;
 
 const routes = {
     admin: require('./api/admin').route
