@@ -1,4 +1,4 @@
-# shopping-site
+# Shopping Site
 ## Website
 - Administrative perspective- https://we-are-open.herokuapp.com/administrator/
 - Client(costomer) perspective- https://we-are-open.herokuapp.com/
