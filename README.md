@@ -1,7 +1,7 @@
 # shopping-site
 ## Website
-Administrative perspective- https://we-are-open.herokuapp.com/administrator/
-Client(costomer) perspective- https://we-are-open.herokuapp.com/
+- Administrative perspective- https://we-are-open.herokuapp.com/administrator/
+- Client(costomer) perspective- https://we-are-open.herokuapp.com/
 ## Discription
 ### Things you can do-
 #### Administrative side-
